@@ -26,14 +26,14 @@ body {
   margin-bottom: 0.25rem;
 }
 
-.home-navbar-submenu-item a {
+a {
   font-size: 0.85rem;
   color: green;
 }
-.home-navbar-submenu-item a:visited {
+a:visited {
   color: rgb(223, 112, 8);
 }
-.home-navbar-submenu-item a:hover {
+a:hover {
   color: rgb(197, 197, 197);
 }
 
