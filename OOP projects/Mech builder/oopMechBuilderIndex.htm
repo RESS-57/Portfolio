@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>OOP Mech Builder Sim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="oopMechBuilder.css"
+    />
+  </head>
+  <body>
+    <h1 class="title-header">OOP Mech Builder Sim</h1>
+    <div class="main-widget">
+      <div id="input-form">
+        <h3>INPUT</h3>
+        <label for="mech-name-input">Mech name</label>
+        <input
+          type="text"
+          id="mech-name-input"
+          placeholder="Your mech's name"
+        />
+        <label for="mech-type-input">Mech type</label>
+        <input
+          type="text"
+          id="mech-type-input"
+          placeholder="Your mech's type"
+        />
+        <label for="mech-weapon-input">Mech weapon type</label>
+        <input
+          type="text"
+          id="mech-weapon-input"
+          placeholder="Your mech's weapon type"
+        />
+        <label for="mech-motor-input">Mech motor type</label>
+        <input
+          type="text"
+          id="mech-motor-input"
+          placeholder="Your mech's motor type"
+        />
+
+        <button id="submit-btn">Build your mech!</button>
+      </div>
+      <div class="output-window">
+        <h3>OUTPUT</h3>
+      </div>
+      <div id="output">
+        <p class="mech-output">Your mech's details will be listed here.</p>
+      </div>
+    </div>
+    <script src="oopMechBuilderScript.js"></script>
+  </body>
+</html>

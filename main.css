@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: green;
+  font-family: monospace, monospace;
+}
+
+.intro-blurb {
+  width: 100%;
+  max-width: 35rem;
+}
+
+.home-navbar,
+.home-navbar-submenu-item {
+  list-style-type: none;
+}
+
+.home-navbar-item {
+  padding: 1px;
+  margin-bottom: 0.25rem;
+}
+
+.home-navbar-submenu-item a {
+  font-size: 0.85rem;
+  color: green;
+}
+.home-navbar-submenu-item a:visited {
+  color: rgb(223, 112, 8);
+}
+.home-navbar-submenu-item a:hover {
+  color: rgb(197, 197, 197);
+}
+
+.home-navbar-submenu {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.home-navbar-item:hover .home-navbar-submenu {
+  display: block;
+  opacity: 1;
+}
+
+.home-navbar-item {
+  position: relative;
+}
+
+/* snazzy rectangle picture for serious wow effect */
+@media screen and (min-width: 50rem) {
+  .rectangle1,
+  .rectangle2 {
+    position: absolute;
+    border: 2px solid green;
+    background-color: transparent;
+  }
+
+  .rectangle1 {
+    width: 10rem;
+    height: 12.5rem;
+    top: 4rem;
+    left: 50rem;
+  }
+
+  .rectangle2 {
+    width: 8rem;
+    height: 8rem;
+    top: 12rem;
+    left: 47rem;
+  }
+}
