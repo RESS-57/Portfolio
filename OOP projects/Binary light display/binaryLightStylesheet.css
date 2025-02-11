@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: green;
+  font-family: monospace, monospace;
+}
+
+.main-widget {
+  border: 1px dashed green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.number-scroll-widget {
+  width: 4.5rem;
+  height: 12rem;
+  border: 1px solid green;
+  overflow: hidden;
+  position: relative;
+}
+
+.number-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  max-height: 100%;
+}
+
+.number {
+  padding: 1px;
+  transition: opacity 0.3s ease;
+}
+
+.binary-lights {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.light {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.light.on {
+  background-color: #00ff00;
+  box-shadow: 0 0 10px #00ff00;
+}
