@@ -17,7 +17,7 @@ body {
 }
 
 .number-scroll-widget {
-  width: 4.5rem;
+  display: inline-block;
   height: 12rem;
   border: 1px solid green;
   overflow: hidden;
